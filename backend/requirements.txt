@@ -1,207 +1,51 @@
-# ==================== GLOBAL AI POWERED LEAD GENERATION SYSTEM ====================
-# 🌍 Version: 11.0 - Global Market Edition
-# ✅ 50+ Countries Support
-# ✅ Advanced Industry Hierarchy (15 categories, 150+ industries)
-# ✅ Ethiopian Market Integration
-# ✅ 10+ API Integrations
-# ✅ Multi-source scraping
-# ====================================================================================
-
-# ==================== CORE FRAMEWORK ====================
+# Core API
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
-starlette==0.27.0
-websockets==12.0
 
-# ==================== DATABASE ====================
+# Database
 pymongo==4.5.0
-motor==3.3.2  # Async MongoDB driver
-certifi==2023.11.17
+motor==3.3.2
 dnspython==2.4.2
-redis==5.0.1  # For caching and rate limiting
 
-# ==================== DATA VALIDATION ====================
+# Validation
 pydantic==2.4.2
 pydantic-settings==2.1.0
 email-validator==2.1.0
-marshmallow==3.20.1
 
-# ==================== ENVIRONMENT ====================
+# Environment
 python-dotenv==1.0.0
-environs==9.5.0
 
-# ==================== HTTP CLIENTS ====================
-aiohttp==3.9.1
+# HTTP
 requests==2.31.0
 httpx==0.25.2
-aiofiles==23.2.1
-httpx-oauth==0.13.0  # For OAuth integrations
+aiohttp==3.10.11
 
-# ==================== WEB SCRAPING ====================
-beautifulsoup4==4.12.2
-lxml==4.9.3
+# Scraping
+beautifulsoup4==4.12.3
+lxml==5.3.0
 selenium==4.15.2
-webdriver-manager==4.0.1
 playwright==1.40.0
-cloudscraper==1.2.71
-parsel==1.8.1  # For parsing HTML
-cssselect==1.2.0
-scrapy==2.11.0  # For advanced scraping
 
-# ==================== DATA PROCESSING ====================
-pandas==2.1.4
-numpy==1.24.4
-openpyxl==3.1.2
-xlrd==2.0.1
-xlwt==1.3.0
-tabulate==0.9.0
+# Data processing
+pandas==2.2.3
+numpy==2.1.3
+openpyxl==3.1.5
 
-# ==================== NEWS APIS ====================
-newsapi-python==0.2.7
-gnews==0.2.6
-newspaper3k==0.2.8  # Article extraction
-feedparser==6.0.10  # RSS feeds
-
-# ==================== FINANCIAL APIS ====================
-alpha-vantage==2.3.1
-yfinance==0.2.33
-finviz==2.0.0
-yahooquery==2.3.7
-
-# ==================== AI INTEGRATION ====================
+# AI
 google-generativeai==0.8.6
-openai==1.6.1  # OpenAI API support
-anthropic==0.18.0  # Claude API support
-langchain==0.1.0  # AI framework
-langchain-google-genai==0.0.2
+openai==1.6.1
+anthropic==0.18.0
 
-# ==================== ENRICHMENT APIS ====================
-pyhunter==1.7  # Hunter.io email finder
-clearbit==1.4.0  # Company enrichment
-apollo-api==1.0.0  # Apollo.io integration
-linkedin-api==2.0.0  # LinkedIn integration
-crunchbase-api==0.1.0  # Crunchbase integration
-
-# ==================== EMAIL VERIFICATION ====================
-validators==0.22.0
-validate-email==1.3
-email-validator==2.1.0
-verify-email==0.1.12
-
-# ==================== SECURITY ====================
+# Security
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 bcrypt==4.1.2
-cryptography==41.0.7
-pyjwt==2.8.0
-python-owasp==0.6.0
 
-# ==================== RATE LIMITING & CACHING ====================
-slowapi==0.1.8
-cachetools==5.3.2
-aiocache==0.12.1
-python-memcached==1.59
-
-# ==================== UTILITIES ====================
+# Utilities
 python-dateutil==2.8.2
 pytz==2023.3.post1
-tzlocal==5.2
-python-magic==0.4.27
-fuzzywuzzy==0.18.0
-python-Levenshtein==0.23.0
-phonenumbers==8.13.27  # Phone number validation
-pycountry==22.3.5  # Country data
-iso3166==2.1.1  # Country codes
-
-# ==================== LOGGING ====================
 loguru==0.7.2
-structlog==23.2.0
-colorlog==6.7.0
 
-# ==================== TESTING ====================
-pytest==7.4.3
-pytest-asyncio==0.21.1
-pytest-cov==4.1.0
-pytest-mock==3.12.0
-faker==20.1.0  # For generating test data
-factory-boy==3.3.0
-
-# ==================== DEVELOPMENT ====================
-black==23.11.0
-flake8==6.1.0
-mypy==1.7.0
-ipython==8.17.2
-jupyter==1.0.0
-notebook==7.0.7
-autoflake==2.2.1
-isort==5.12.0
-pre-commit==3.5.0
-
-# ==================== CODE QUALITY ====================
-pylint==3.0.3
-bandit==1.7.5
-safety==2.3.5
-coverage==7.3.4
-
-# ==================== ASYNC SUPPORT ====================
-asyncio==3.4.3
-aiofiles==23.2.1
-aiosignal==1.3.1
-async-timeout==4.0.3
-
-# ==================== DATABASE MIGRATIONS ====================
-alembic==1.12.1
-sqlalchemy==2.0.23  # For ORM if needed
-
-# ==================== MONITORING ====================
+# Monitoring
 prometheus-client==0.19.0
-opentelemetry-api==1.22.0
-opentelemetry-sdk==1.22.0
-opentelemetry-instrumentation-fastapi==0.43b0
-
-# ==================== DOCUMENTATION ====================
-mkdocs==1.5.3
-mkdocs-material==9.5.4
-mkdocstrings==0.24.0
-sphinx==7.2.6
-
-# ==================== TASK QUEUES ====================
-celery==5.3.6
-redis==5.0.1
-huey==2.5.1
-
-# ==================== WEBHOOKS ====================
-webhook-receiver==0.1.9
-httpie==3.2.2
-
-# ==================== GEOCODING ====================
-geopy==2.4.1
-geocoder==1.38.1
-countries==0.1.1
-
-# ==================== SOCIAL MEDIA ====================
-tweepy==4.14.0  # Twitter API
-facebook-sdk==3.0.0
-instagram-scraper==1.9.0
-
-# ==================== SEARCH ENGINES ====================
-googlesearch-python==1.2.3
-bing-search==1.0.0
-
-# ==================== DATA VISUALIZATION ====================
-matplotlib==3.8.2
-seaborn==0.13.0
-plotly==5.18.0
-
-# ==================== MAIL ====================
-smtplib==0.0.1
-mailgun==0.9.15
-
-# ==================== COMPATIBILITY FIXES ====================
-# Some packages may conflict, these resolve common issues
-typing-extensions==4.8.0
-attrs==23.1.0
-cffi==1.16.0
-pycparser==2.21
-six==1.16.0
