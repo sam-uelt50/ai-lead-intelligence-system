@@ -20,6 +20,16 @@ The goal is to reduce manual prospecting time and help teams focus on the most v
 
 ---
 
+## 🚀 Live Demo
+
+🌐 Live Application:
+https://ai-lead-intelligence-system-1.onrender.com
+
+🎥 Loom Walkthrough:
+https://www.loom.com/share/9425cb2bde244809b1dca95775a2838b
+
+📂 Source Code:
+https://github.com/sam-uelt50/ai-lead-intelligence-system
 # ✨ Key Features
 
 ## 🔍 Automated Company Discovery
@@ -343,16 +353,6 @@ Planned features:
 * [ ] Advanced machine learning ranking model
 
 ---
-## 🚀 Live Demo
-
-🌐 Live Application:
-https://your-render-url.onrender.com
-
-🎥 Loom Walkthrough:
-https://www.loom.com/share/9425cb2bde244809b1dca95775a2838b
-
-📂 Source Code:
-https://github.com/yourusername/ai-lead-intelligence-system
 # 📸 Screenshots
 
 ## Landing Page
