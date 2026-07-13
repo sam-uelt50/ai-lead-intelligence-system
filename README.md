@@ -3,7 +3,7 @@
 An AI-powered B2B lead generation and research platform that discovers companies, enriches business data, detects buying signals, and prioritizes high-value prospects using automated workflows and intelligent scoring.
 
 
-![Landing Page](Screenshots/landing-page.png)
+![Landing Page](screenshots/landing-page.png)
 
 
 ## 📌 Overview
@@ -98,27 +98,27 @@ Built with a scalable backend architecture:
 
 ### Landing Page
 
-![Landing Page](Screenshots/landing-page.png)
+![Landing Page](screenshots/landing-page.png)
 
 
 ### AI Lead Dashboard
 
-![AI Lead Dashboard](Screenshots/dashbroad.png)
+![AI Lead Dashboard](screenshots/dashbroad.png)
 
 
 ### Company Leads Analysis
 
-![Company Leads](Screenshots/companies-leads.png)
+![Company Leads](screenshots/companies-leads.png)
 
 
 ### Company Details
 
-![Company Details](Screenshots/companies-details.png)
+![Company Details](screenshots/companies-details.png)
 
 
 ### Decision Makers
 
-![Decision Makers](Screenshots/decison-makers.png)
+![Decision Makers](screenshots/decison-makers.png)
 # 🏗️ System Architecture
 
 ```
