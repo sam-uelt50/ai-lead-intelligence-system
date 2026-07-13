@@ -2,7 +2,9 @@
 
 An AI-powered B2B lead generation and research platform that discovers companies, enriches business data, detects buying signals, and prioritizes high-value prospects using automated workflows and intelligent scoring.
 
-![AI Lead Intelligence Dashboard](screenshots/dashboard.png)
+
+![Landing Page](Screenshots/landing-page.png)
+
 
 ## 📌 Overview
 
@@ -92,7 +94,31 @@ Built with a scalable backend architecture:
 * Frontend-backend communication
 
 ---
+## 📸 Screenshots
 
+### Landing Page
+
+![Landing Page](Screenshots/landing-page.png)
+
+
+### AI Lead Dashboard
+
+![AI Lead Dashboard](Screenshots/dashbroad.png)
+
+
+### Company Leads Analysis
+
+![Company Leads](Screenshots/companies-leads.png)
+
+
+### Company Details
+
+![Company Details](Screenshots/companies-details.png)
+
+
+### Decision Makers
+
+![Decision Makers](Screenshots/decison-makers.png)
 # 🏗️ System Architecture
 
 ```
@@ -353,42 +379,7 @@ Planned features:
 * [ ] Advanced machine learning ranking model
 
 ---
-# 📸 Screenshots
 
-## Landing Page
-
-The main interface introducing the AI Lead Intelligence System.
-
-![Landing Page](screenshots/landing-page.png)
-
-
-## AI Lead Dashboard
-
-Overview of prioritized leads, scoring, and company intelligence.
-
-![Dashboard](screenshots/dashboard.png)
-
-
-## Company Leads Analysis
-
-View collected companies, lead information, and qualification results.
-
-![Company Leads](screenshots/companies-leads.png)
-
-
-## Company Details
-
-Detailed company research including business information and intelligence.
-
-![Company Details](screenshots/companies-details.png)
-
-
-## Decision Makers
-
-Displays identified decision makers and relevant business contacts.
-
-![Decision Makers](screenshots/decison-makers.png)
-# 👨‍💻 Author
 
 **Samuel Tesema**
 
