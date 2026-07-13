@@ -343,7 +343,16 @@ Planned features:
 * [ ] Advanced machine learning ranking model
 
 ---
+## 🚀 Live Demo
 
+🌐 Live Application:
+https://your-render-url.onrender.com
+
+🎥 Loom Walkthrough:
+https://www.loom.com/share/9425cb2bde244809b1dca95775a2838b
+
+📂 Source Code:
+https://github.com/yourusername/ai-lead-intelligence-system
 # 📸 Screenshots
 
 ## Landing Page
